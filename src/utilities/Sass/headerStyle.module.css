@@ -47,7 +47,19 @@
   background-color: #FF0000;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 5px;
+}
+.cont__header_menuZone_menu:focus {
+  outline: none;
+}
+.cont__header_menuZone_menu_line {
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  margin: 2.5px 0;
 }
 
 /*# sourceMappingURL=headerstyle.module.css.map */
