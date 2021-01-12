@@ -1,0 +1,27 @@
+$blu_color: #020E28;
+$red_color: #FF0000;
+
+.cont__header {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+
+    &_cta {
+        width: 100%;
+        height: fit-content;
+        padding: 25px;
+        background-color: $blu_color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & > a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 5vw;
+            font-size: 14px;
+        }
+    }
+}

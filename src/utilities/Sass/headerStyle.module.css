@@ -1,3 +1,24 @@
+.cont__header {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.cont__header_cta {
+  width: 100%;
+  height: fit-content;
+  padding: 25px;
+  background-color: #020E28;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont__header_cta > a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 5vw;
+  font-size: 14px;
+}
 
-
-/*# sourceMappingURL=headerStyle.module.css.map */
+/*# sourceMappingURL=headerstyle.module.css.map */
