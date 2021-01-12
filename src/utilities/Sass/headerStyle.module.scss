@@ -22,6 +22,39 @@ $red_color: #FF0000;
             font-weight: bold;
             margin-left: 5vw;
             font-size: 14px;
+            transition: color .6s;
+
+            &:hover {
+                color: $red_color;
+            }
+        }
+    }
+
+    &_menuZone {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 20px;
+
+        &_cta {
+            width: 100px;
+            background-color: $red_color;
+            border-radius: 25px;
+            font-size: 8px;
+            padding: 5px;
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        &_menu {
+            width: 35px;
+            height: 35px;
+            background-color: $red_color;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
     }
 }
