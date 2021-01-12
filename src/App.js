@@ -15,8 +15,10 @@ function App() {
         <Header />
 
         <Switch>
-          
+
         </Switch>
+
+        {/* <Footer /> */}
       </div>
     </Router>
   );
