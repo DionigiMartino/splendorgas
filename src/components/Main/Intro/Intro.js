@@ -29,20 +29,35 @@ function Intro() {
     return (
         <div className={introSlide.cont_slide}>
             <div className="slide-container">
-                <Slide duration="6500">
+                <Slide duration={3000} transitionDuration={500} arrows={false}>
                     <div className="each-slide">
-                        <div style={{'backgroundImage': `url(${listImages[0]})`}}>
-                            <span>Slide 1</span>
+                        <div style={{'backgroundImage': `url(${listImages[0]})`}} className={introSlide.cont_slide_slide}>
+                            <span>
+                                Dal <b>2006</b> al vostro
+                                <b> servizio</b> per il <b>trasporto </b>
+                                e la <b>vendita</b> di <b>GPL</b> in
+                                piccoli serbatoi.
+                            </span>
                         </div>
                     </div>
                     <div className="each-slide">
-                        <div style={{'backgroundImage': `url(${listImages[1]})`}}>
-                            <span>Slide 2</span>
+                        <div style={{'backgroundImage': `url(${listImages[1]})`}} className={introSlide.cont_slide_slide}>
+                            <span>
+                                Dal <b>2006</b> al vostro
+                                <b> servizio</b> per il <b>trasporto </b>
+                                e la <b>vendita</b> di <b>GPL</b> in
+                                piccoli serbatoi.
+                            </span>
                         </div>
                     </div>
                     <div className="each-slide">
-                        <div style={{'backgroundImage': `url(${listImages[2]})`}}>
-                            <span>Slide 3</span>
+                        <div style={{'backgroundImage': `url(${listImages[2]})`}} className={introSlide.cont_slide_slide}>
+                            <span>
+                                Dal <b>2006</b> al vostro
+                                <b> servizio</b> per il <b>trasporto </b>
+                                e la <b>vendita</b> di <b>GPL</b> in
+                                piccoli serbatoi.
+                            </span>
                         </div>
                     </div>
                 </Slide>

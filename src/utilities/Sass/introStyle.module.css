@@ -1,6 +1,20 @@
 .cont_slide {
   width: 100%;
+  margin-top: 2.5vh;
+}
+.cont_slide_slide {
   height: 35vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0 15px 20px;
+}
+.cont_slide_slide > span {
+  color: #fff;
+  text-align: left;
+  font-size: 21px;
 }
 
 /*# sourceMappingURL=introstyle.module.css.map */
