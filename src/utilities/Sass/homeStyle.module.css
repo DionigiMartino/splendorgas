@@ -1,3 +1,6 @@
+.cont__home {
+  display: flex;
+  flex-direction: column;
+}
 
-
-/*# sourceMappingURL=homeStyle.module.css.map */
+/*# sourceMappingURL=homestyle.module.css.map */

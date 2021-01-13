@@ -19,6 +19,14 @@ function App() {
         <Header />
 
         <Switch>
+          <Route path="/contact">
+            <Home />
+          </Route>
+
+          <Route path="/about">
+            <Home />
+          </Route>
+
           <Route path="/">
             <Home />
           </Route>
