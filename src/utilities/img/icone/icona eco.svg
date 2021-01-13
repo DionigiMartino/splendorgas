@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="142.723" height="172.509" viewBox="0 0 142.723 172.509">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_16" data-name="Rettangolo 16" width="142.723" height="172.509" fill="red"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_49" data-name="Raggruppa 49" transform="translate(-116 -2859.897)">
+    <g id="Raggruppa_16" data-name="Raggruppa 16" transform="translate(116 2859.898)">
+      <g id="Raggruppa_15" data-name="Raggruppa 15" transform="translate(0 -0.001)" clip-path="url(#clip-path)">
+        <path id="Tracciato_31" data-name="Tracciato 31" d="M75.822,1.522c-3.717-2.23-8.177-2.23-10.4,1.487,0,.743-.751.743-.751,1.487A97.59,97.59,0,0,1,35.688,40.176C17.84,55.787,0,72.14,0,103.361a71.9,71.9,0,0,0,73.592,69.131,72.044,72.044,0,0,0,69.131-69.131c0-52.034-34.194-77.308-66.9-101.839m-4.46,157.59c-13.373,0-24.523-10.407-24.523-23.787,0-11.15,11.886-23.787,24.523-36.424,12.644,12.637,24.531,25.274,24.531,36.424,0,12.637-11.15,23.787-24.531,23.787m37.911-14.867a43.078,43.078,0,0,0,1.487-9.664c0-18.584-17.1-35.681-34.187-52.778a7.194,7.194,0,0,0-10.414,0C49.8,98.158,31.971,115.255,31.971,134.582a43.491,43.491,0,0,0,1.479,9.664,54.225,54.225,0,0,1-18.584-40.884c0-24.531,14.124-37.167,29.734-51.291C55.751,43.15,66.158,32,73.592,19.363c28.247,21.557,53.521,43.114,53.521,84a56.226,56.226,0,0,1-17.84,40.884" transform="translate(0 0.005)" fill="red"/>
+      </g>
+    </g>
+    <text id="ECO" transform="translate(130 2968)" fill="#fff" font-size="40" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="16.22" y="42">ECO</tspan></text>
+  </g>
+</svg>
