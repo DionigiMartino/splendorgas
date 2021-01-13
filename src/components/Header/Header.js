@@ -1,5 +1,6 @@
 import React from 'react'
 import CallIcon from '../../utilities/img/iconachiamatarossa.svg'
+import Logo from '../../utilities/img/LogoSplendorgas.png'
 
 // import Style
 
@@ -18,7 +19,9 @@ function Header() {
             </div>
 
             <div className={headerClasses.cont__header_logo}>
-
+                <Link to="/">
+                    <img src={Logo} alt="Logo Splendorgas" /> 
+                </Link>
             </div>
 
             <div className={headerClasses.cont__header_menuZone}>

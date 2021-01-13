@@ -8,6 +8,10 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 import Header from './components/Header/Header';
 
+// import Home Component
+
+import Home from './components/Main/Home/Home'
+
 function App() {
   return (
     <Router>
@@ -15,7 +19,9 @@ function App() {
         <Header />
 
         <Switch>
-
+          <Route path="/">
+            <Home />
+          </Route>
         </Switch>
 
         {/* <Footer /> */}

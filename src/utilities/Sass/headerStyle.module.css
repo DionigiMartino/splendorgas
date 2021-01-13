@@ -24,6 +24,9 @@
 .cont__header_cta > a:hover {
   color: #FF0000;
 }
+.cont__header_logo {
+  padding: 35px;
+}
 .cont__header_menuZone {
   width: 100%;
   display: flex;
@@ -62,4 +65,4 @@
   margin: 2.5px 0;
 }
 
-/*# sourceMappingURL=headerstyle.module.css.map */
+/*# sourceMappingURL=headerStyle.module.css.map */
