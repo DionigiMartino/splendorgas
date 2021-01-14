@@ -10,7 +10,11 @@ import Intro from '../Intro/Intro'
 
 // import checkIcon
 
-import checkIcon from '../../../utilities/img/iconapuntualita.svg'
+import checkIcon from '../../../utilities/img/iconapuntualita.svg';
+
+// import leaderIcon
+
+import leaderIcon from '../../../utilities/img/iconaleader.svg';
 
 function Home() {
     return (
@@ -23,6 +27,14 @@ function Home() {
 
                     <h2>
                         Puntualità nelle consegne
+                    </h2>
+                </li>
+
+                <li>
+                    <img src={leaderIcon} alt="Icon leader" />
+
+                    <h2>
+                        Azienda leader del settore
                     </h2>
                 </li>
             </ul>

@@ -15,9 +15,17 @@ $red_color: #FF0000;
         justify-content: space-around;
         padding-inline-start: 0;
 
-        & > h2 {
-            color: $red_color;
-            text-transform: uppercase;
+        & > li {
+            margin: 5vh 0;
+
+            & > h2 {
+                color: $red_color;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 18px;
+            }
         }
+
+
     }
 }

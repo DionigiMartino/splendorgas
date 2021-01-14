@@ -12,9 +12,14 @@
   justify-content: space-around;
   padding-inline-start: 0;
 }
-.cont__home_info > h2 {
+.cont__home_info > li {
+  margin: 5vh 0;
+}
+.cont__home_info > li > h2 {
   color: #FF0000;
   text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=homeStyle.module.css.map */
