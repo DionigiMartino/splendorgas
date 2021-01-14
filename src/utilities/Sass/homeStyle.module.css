@@ -2,5 +2,19 @@
   display: flex;
   flex-direction: column;
 }
+.cont__home_info {
+  width: 100%;
+  margin: 5vh 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  padding-inline-start: 0;
+}
+.cont__home_info > h2 {
+  color: #FF0000;
+  text-transform: uppercase;
+}
 
-/*# sourceMappingURL=homestyle.module.css.map */
+/*# sourceMappingURL=homeStyle.module.css.map */

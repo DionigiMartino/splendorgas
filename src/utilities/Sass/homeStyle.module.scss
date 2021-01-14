@@ -1,4 +1,23 @@
+$blu_color: #020E28;
+$red_color: #FF0000;
+
 .cont__home {
     display: flex;
     flex-direction: column;
+
+    &_info {
+        width: 100%;
+        margin: 5vh 0;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        align-items: center;
+        justify-content: space-around;
+        padding-inline-start: 0;
+
+        & > h2 {
+            color: $red_color;
+            text-transform: uppercase;
+        }
+    }
 }

@@ -8,10 +8,24 @@ import homeClasses from '../../../utilities/Sass/homeStyle.module.css'
 
 import Intro from '../Intro/Intro'
 
+// import checkIcon
+
+import checkIcon from '../../../utilities/img/iconapuntualita.svg'
+
 function Home() {
     return (
         <div className={homeClasses.cont__home}>
             <Intro />
+
+            <ul className={homeClasses.cont__home_info}>
+                <li>
+                    <img src={checkIcon} alt="Icon Check" />
+
+                    <h2>
+                        Puntualità nelle consegne
+                    </h2>
+                </li>
+            </ul>
         </div>
     )
 }
