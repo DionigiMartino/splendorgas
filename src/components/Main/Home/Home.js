@@ -16,6 +16,10 @@ import checkIcon from '../../../utilities/img/iconapuntualita.svg';
 
 import leaderIcon from '../../../utilities/img/iconaleader.svg';
 
+// import Services 
+
+import Services from '../Services/Services'
+
 function Home() {
     return (
         <div className={homeClasses.cont__home}>
@@ -38,6 +42,29 @@ function Home() {
                     </h2>
                 </li>
             </ul>
+
+            <p>
+                <b>SplendorGas</b> è partner
+                del <b>Gruppo AutoGas</b>,
+                presente sul territorio
+                da oltre 60 anni nel
+                settore dell’<b>Energia</b>, e,
+                grazie ai suoi requisiti,
+                ha l’eccezionale
+                vantaggio di rifornirsi
+                direttamente dai
+                <b> depositi costieri!</b>
+            </p>
+
+            <div className={homeClasses.cont__home_descr}>
+                <h2>
+                    <b>GPL</b> è sinonimo di
+                    <b> Ecosostenibilità</b> e
+                    grandi <b>Vantaggi!</b>
+                </h2>
+            </div>
+
+            <Services />
         </div>
     )
 }
