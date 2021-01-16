@@ -10,6 +10,8 @@ import tel from '../../utilities/img/iconachiamatabianca.svg'
 
 import position from '../../utilities/img/iconaluogo.svg'
 
+import logoAicon from '../../utilities/img/logoaicon.png'
+
 function Footer() {
     return (
         <div className={footerStyle.cont__footer}>
@@ -31,6 +33,11 @@ function Footer() {
                     <a href="tel:+390771674589">Via Traversa Perusi 135, 04020 SS. Cosma e Damiano (LT)</a>
                 </li>
             </ul>
+            
+            <div className={footerStyle.cont__footer_under}>
+                <p>Powered by</p>
+                <img src={logoAicon} alt="Icona Position"/>
+            </div>
         </div>
     )
 }

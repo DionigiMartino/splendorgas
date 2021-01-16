@@ -1,11 +1,12 @@
 .cont__footer {
     width: 100%;
     height: fit-content;
-    padding: 15px;
+    // padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #1d1d1d;
+    padding: 15px 0 0;
 
     & > ul {
         width: 80%;
@@ -29,6 +30,28 @@
                 font-weight: bold;
                 text-align: left;
             }
+        }
+    }
+
+    &_under {
+        width: 100%;
+        background-color: #000;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+
+        & > p {
+            color: #fff;
+            font-weight: bold;
+            margin: 0;
+            font-size: 12px;
+        }
+
+        & > img {
+            width: 135px;
+            object-fit: contain;
         }
     }
 }
