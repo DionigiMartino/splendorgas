@@ -16,6 +16,10 @@ import checkIcon from '../../../utilities/img/iconapuntualita.svg';
 
 import leaderIcon from '../../../utilities/img/iconaleader.svg';
 
+// import eco
+
+import ecoIcon from '../../../utilities/img/iconaeco.svg'
+
 // import Services 
 
 import Services from '../Services/Services'
@@ -65,6 +69,16 @@ function Home() {
             </div>
 
             <Services />
+
+            <div className={homeClasses.cont__home_eco}>
+                <img src={ecoIcon} alt="Icon Eco" />
+
+                <h2>
+                    Il <b style={{'color': '#FF0000'}}>GPL</b> è il miglior combustibile
+                    <b style={{'color': '#FF0000'}}> consigliato</b> per uso industriale ed agricolo perché è
+                    <b style={{'color': '#FF0000'}}> ecosostenibile</b> e molto calorifico.
+                </h2>
+            </div>
         </div>
     )
 }

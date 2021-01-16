@@ -51,4 +51,19 @@ $red_color: #FF0000;
             font-weight: 500;
         }
     }
+
+    &_eco {
+        width: 100%;
+        height: fit-content;
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        background-color: $blu_color;
+
+        & > h2 {
+            color: #fff;
+            text-align: left;
+            font-weight: bold;
+        } 
+    }
 }

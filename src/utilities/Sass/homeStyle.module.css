@@ -42,5 +42,18 @@
   text-align: left;
   font-weight: 500;
 }
+.cont__home_eco {
+  width: 100%;
+  height: fit-content;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  background-color: #020E28;
+}
+.cont__home_eco > h2 {
+  color: #fff;
+  text-align: left;
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=homeStyle.module.css.map */
