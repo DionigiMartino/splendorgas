@@ -8,6 +8,10 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 import Header from './components/Header/Header';
 
+// import Footer
+
+import Footer from './components/Footer/Footer';
+
 // import Home Component
 
 import Home from './components/Main/Home/Home'
@@ -32,7 +36,7 @@ function App() {
           </Route>
         </Switch>
 
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );
