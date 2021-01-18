@@ -14,6 +14,7 @@ import icon from '../../../utilities/img/iconaleader.svg'
 
 
 function About() {
+
     return (
         <div className={aboutStyle.cont__about}>
             <Intro />

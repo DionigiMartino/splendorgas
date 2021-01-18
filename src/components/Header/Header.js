@@ -11,6 +11,24 @@ import headerClasses from '../../utilities/Sass/headerStyle.module.css'
 import {Link} from 'react-router-dom'
 
 function Header() {
+    // Taking the reference to the menu div
+
+    const buttonMenu = document.querySelector('.headerStyle_cont__header_menuZone_menu__juWMH')
+    const menuZone = document.querySelector('.headerStyle_cont__header_menuZone_inside__UY-x0');
+    const line = document.querySelectorAll('.headerStyle_cont__header_menuZone_menu_line__2FA9m')
+    
+    let open = () => {
+        menuZone.classList.toggle('headerStyle_open__3KOnJ')
+        line.forEach(el => el.classList.toggle('headerStyle_changeColor__3RQrr'));
+        buttonMenu.classList.toggle('headerStyle_no_bg__17qe2');
+    }
+
+    let removeMenu = () => {
+        menuZone.classList.remove('headerStyle_open__3KOnJ')
+        line.forEach(el => el.classList.remove('headerStyle_changeColor__3RQrr'))
+        buttonMenu.classList.remove('headerStyle_no_bg__17qe2')
+    }
+
     return (
         <div className={headerClasses.cont__header}>
             <div className={headerClasses.cont__header_cta}>
@@ -29,11 +47,32 @@ function Header() {
                     Richiedi un Preventivo
                 </Link>
 
-                <button className={headerClasses.cont__header_menuZone_menu}>
+                <button className={headerClasses.cont__header_menuZone_menu} onClick={open}>
                     <span className={headerClasses.cont__header_menuZone_menu_line}></span>
                     <span className={headerClasses.cont__header_menuZone_menu_line}></span>
                     <span className={headerClasses.cont__header_menuZone_menu_line}></span>
                 </button>
+                <nav className={headerClasses.cont__header_menuZone_inside}>
+                    <ul>
+                        <li>
+                            <Link to="/" onClick={removeMenu}>
+                                Home
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link to="/about" onClick={removeMenu}>
+                                Chi Siamo
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link to="/contatti" onClick={removeMenu}>
+                                Contatti
+                            </Link>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
     )
