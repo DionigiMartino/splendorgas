@@ -16,6 +16,10 @@ import Footer from './components/Footer/Footer';
 
 import Home from './components/Main/Home/Home'
 
+// import About Component
+
+import About from './components/Main/About/About'
+
 function App() {
   return (
     <Router>
@@ -28,7 +32,7 @@ function App() {
           </Route>
 
           <Route path="/about">
-            <Home />
+            <About />
           </Route>
 
           <Route path="/">
