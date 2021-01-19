@@ -1,0 +1,40 @@
+$blu_color: #020E28;
+$red_color: #FF0000;
+
+.cont__contact {
+    width: 100%;
+    height: fit-content;
+
+    & > h2 {
+        color: $red_color;
+        text-transform: uppercase;
+    }
+
+    &_form {
+        width: 80%;
+        height: fit-content;
+        margin: 2.5vh auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & > input, textarea {
+            width: 100%;
+            padding: 10px;
+            background-color: $blu_color;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 16px;
+            border: none;
+            margin: 1.5vh 0;
+
+            &[type="submit"] {
+                background-color: $red_color;
+            }
+        }
+    }
+}
+
+::placeholder {
+    color: #fff;
+}

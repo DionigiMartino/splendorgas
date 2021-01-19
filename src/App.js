@@ -3,6 +3,7 @@ import './App.css';
 // importing the Router
 
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import DocumentTitle from 'react-document-title'
 
 // import Header
 
@@ -20,6 +21,10 @@ import Home from './components/Main/Home/Home'
 
 import About from './components/Main/About/About'
 
+// import Contact Component
+
+import Contact from './components/Main/Contact/Contact'
+
 function App() {
   return (
     <Router>
@@ -27,16 +32,22 @@ function App() {
         <Header />
 
         <Switch>
-          <Route path="/contact">
-            <Home />
+          <Route path="/contatti">
+            <DocumentTitle title="Splendorgas S.r.l - Contatti">
+              <Contact />
+            </DocumentTitle>
           </Route>
 
-          <Route path="/about">
-            <About />
+          <Route path="/chisiamo">
+            <DocumentTitle title="Splendorgas S.r.l - Chi Siamo">
+              <About />
+            </DocumentTitle>
           </Route>
 
           <Route path="/">
-            <Home />
+            <DocumentTitle title="Splendorgas S.r.l">
+              <Home />
+            </DocumentTitle>
           </Route>
         </Switch>
 

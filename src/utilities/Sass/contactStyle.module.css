@@ -1,0 +1,35 @@
+.cont__contact {
+  width: 100%;
+  height: fit-content;
+}
+.cont__contact > h2 {
+  color: #FF0000;
+  text-transform: uppercase;
+}
+.cont__contact_form {
+  width: 80%;
+  height: fit-content;
+  margin: 2.5vh auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cont__contact_form > input, .cont__contact_form textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #020E28;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  border: none;
+  margin: 1.5vh 0;
+}
+.cont__contact_form > input[type=submit], .cont__contact_form textarea[type=submit] {
+  background-color: #FF0000;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+/*# sourceMappingURL=contactstyle.module.css.map */
