@@ -19,7 +19,7 @@ function Contact() {
                 <input type="text" name="email" placeholder="Email" />
                 <textarea name="msg" rows="8" placeholder="Messaggio" />
 
-                <input type="submit" value="INVIA" />
+                <button id="submit">INVIA</button>
             </form>
         </div>
     )

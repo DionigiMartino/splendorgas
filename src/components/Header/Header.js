@@ -11,14 +11,15 @@ import headerClasses from '../../utilities/Sass/headerStyle.module.css'
 import {Link} from 'react-router-dom'
 
 function Header() {
-
-    // Taking the reference to the menu div
-
-    const buttonMenu = document.querySelector('.headerStyle_cont__header_menuZone_menu__juWMH');
-    const menuZone = document.querySelector('.headerStyle_cont__header_menuZone_inside__UY-x0');
-    const line = document.querySelectorAll('.headerStyle_cont__header_menuZone_menu_line__2FA9m');
     
     const menuHandler = () => {
+            
+        // Taking the reference to the menu div
+
+        const buttonMenu = document.querySelector('button');
+        const menuZone = document.querySelector('.headerStyle_cont__header_menuZone_inside__UY-x0');
+        const line = document.querySelectorAll('.headerStyle_cont__header_menuZone_menu_line__2FA9m');
+
         menuZone.classList.toggle('headerStyle_open__3KOnJ');
         line.forEach(el => el.classList.toggle('headerStyle_changeColor__3RQrr'));
         buttonMenu.classList.toggle('headerStyle_no_bg__17qe2');
@@ -43,10 +44,11 @@ function Header() {
                 </Link>
 
                 <button className={headerClasses.cont__header_menuZone_menu} onClick={menuHandler}>
-                    <div className={headerClasses.cont__header_menuZone_menu_line}></div>
-                    <div className={headerClasses.cont__header_menuZone_menu_line}></div>
-                    <div className={headerClasses.cont__header_menuZone_menu_line}></div>
+                    <span className={headerClasses.cont__header_menuZone_menu_line}></span>
+                    <span className={headerClasses.cont__header_menuZone_menu_line}></span>
+                    <span className={headerClasses.cont__header_menuZone_menu_line}></span>
                 </button>
+                
                 <nav className={headerClasses.cont__header_menuZone_inside}>
                     <ul>
                         <li>

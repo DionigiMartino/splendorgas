@@ -14,7 +14,7 @@
   flex-direction: column;
   align-items: center;
 }
-.cont__contact_form > input, .cont__contact_form textarea {
+.cont__contact_form > input, .cont__contact_form textarea, .cont__contact_form button {
   width: 100%;
   padding: 10px;
   background-color: #020E28;
@@ -26,10 +26,10 @@
   box-shadow: 0px 2px 2px #1d1d1d;
   transition: transform 0.7s, box-shadow 0.6s;
 }
-.cont__contact_form > input[type=submit], .cont__contact_form textarea[type=submit] {
+.cont__contact_form > input[id=submit], .cont__contact_form textarea[id=submit], .cont__contact_form button[id=submit] {
   background-color: #FF0000;
 }
-.cont__contact_form > input:focus, .cont__contact_form textarea:focus {
+.cont__contact_form > input:focus, .cont__contact_form textarea:focus, .cont__contact_form button:focus {
   transform: translateY(-5px);
   box-shadow: 0px 1px 1px #1d1d1d;
   outline: none;

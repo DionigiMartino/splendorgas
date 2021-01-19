@@ -51,6 +51,7 @@ $red_color: #FF0000;
             z-index: 9999;
             transform: translateY(-101%);
             transition: transform .8s;
+            box-shadow: 0px 2px 4px $blu_color;
 
             & > ul {
                 width: 80%;
@@ -123,11 +124,14 @@ $red_color: #FF0000;
 
 .open {
     transform: translateY(0);
+    position: fixed;
 }
 
 .no_bg {
     transition: all .6s;
     background-color: $blu_color;
+    position: fixed;
+    right: 20px;
 }
 
 .changeColor {
