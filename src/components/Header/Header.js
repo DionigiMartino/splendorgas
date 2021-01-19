@@ -43,9 +43,9 @@ function Header() {
                 </Link>
 
                 <button className={headerClasses.cont__header_menuZone_menu} onClick={menuHandler}>
-                    <span className={headerClasses.cont__header_menuZone_menu_line}></span>
-                    <span className={headerClasses.cont__header_menuZone_menu_line}></span>
-                    <span className={headerClasses.cont__header_menuZone_menu_line}></span>
+                    <div className={headerClasses.cont__header_menuZone_menu_line}></div>
+                    <div className={headerClasses.cont__header_menuZone_menu_line}></div>
+                    <div className={headerClasses.cont__header_menuZone_menu_line}></div>
                 </button>
                 <nav className={headerClasses.cont__header_menuZone_inside}>
                     <ul>
