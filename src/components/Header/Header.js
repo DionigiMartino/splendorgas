@@ -56,7 +56,7 @@ function Header() {
                         </li>
 
                         <li>
-                            <Link to="/about" onClick={menuHandler}>
+                            <Link to="/chisiamo" onClick={menuHandler}>
                                 Chi Siamo
                             </Link>
                         </li>
