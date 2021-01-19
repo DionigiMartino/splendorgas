@@ -21,6 +21,10 @@ function Contact() {
 
                 <button id="submit">INVIA</button>
             </form>
+
+            <h2>
+                Oppure chiama il <a href="tel:+390771674589">0771 67 45 89</a>
+            </h2>
         </div>
     )
 }
