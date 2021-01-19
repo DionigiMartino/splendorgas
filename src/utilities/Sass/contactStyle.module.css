@@ -23,9 +23,16 @@
   font-size: 16px;
   border: none;
   margin: 1.5vh 0;
+  box-shadow: 0px 2px 2px #1d1d1d;
+  transition: transform 0.7s, box-shadow 0.6s;
 }
 .cont__contact_form > input[type=submit], .cont__contact_form textarea[type=submit] {
   background-color: #FF0000;
+}
+.cont__contact_form > input:focus, .cont__contact_form textarea:focus {
+  transform: translateY(-5px);
+  box-shadow: 0px 1px 1px #1d1d1d;
+  outline: none;
 }
 
 ::placeholder {
