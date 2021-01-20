@@ -15,11 +15,20 @@ $red_color: #FF0000;
         background-repeat: none;
         padding: 2.5px 25px;
 
+        @media(min-width: 1280px){
+            height: 65vh;
+            background-position: center;
+        }
+
         & > h2 {
             color: #fff;
             text-align: left;
             font-weight: 500;
             margin-top: 20px;
+
+            @media(min-width: 1280px){
+                font-size: 31px;
+            }
         }
     }
 

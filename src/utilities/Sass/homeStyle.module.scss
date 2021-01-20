@@ -9,6 +9,10 @@ $red_color: #FF0000;
     & > p {
         text-align: left;
         width: 80%;
+
+        @media(min-width: 1280px) {
+            font-size: 21px;
+        }
     }
 
     &_info {
@@ -57,10 +61,20 @@ $red_color: #FF0000;
         background-repeat: none;
         padding: 0 25px;
 
+        @media(min-width: 1280px){
+            height: 65vh;
+            background-position: center;
+            padding: 15px 35px;
+        }
+
         & > h2 {
             color: #fff;
             text-align: left;
             font-weight: 500;
+
+            @media(min-width: 1280px){
+                font-size: 32px;
+            }
         }
     }
 
@@ -76,6 +90,10 @@ $red_color: #FF0000;
             color: #fff;
             text-align: left;
             font-weight: bold;
+
+            @media(min-width: 1280px){
+                text-align: center;
+            }
         } 
     }
 }

@@ -10,11 +10,16 @@ $red_color: #FF0000;
     list-style: none;
     margin: 5vh auto;
 
+    @media(min-width: 1280px){
+        width: 85%;
+        flex-direction: row;
+    }
+
     & > li {
         width: 100%;
-        height: 32vh;
+        height: 40vh;
         clip-path: circle();
-        padding: 15px;
+        padding: 35px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -36,6 +41,7 @@ $red_color: #FF0000;
             font-size: 12px;
             transition: color .6s;
             background-color: $red_color;
+            transition: color .6s, background-color .7s;
             border-radius: 25px;
             padding: 5px;
             text-transform: uppercase;
@@ -44,6 +50,7 @@ $red_color: #FF0000;
             margin-top: -10px;
 
             &:hover {
+                background-color: $blu_color;
                 color: $red_color;
             }
         }

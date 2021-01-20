@@ -30,9 +30,11 @@ $red_color: #FF0000;
             margin-left: 5vw;
             font-size: 14px;
             transition: color .6s;
+            transition: transform .8s;
 
             &:hover {
                 color: $red_color;
+                transform: translateX(10px);
             }
         }
     }
@@ -143,6 +145,11 @@ $red_color: #FF0000;
             text-decoration: none;
             text-transform: uppercase;
             font-weight: bold;
+            transition: transform .8s;
+
+            &:hover {
+                transform: translateX(10px);
+            }
         }
 
         &_menu {
