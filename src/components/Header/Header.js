@@ -32,44 +32,70 @@ function Header() {
                 <a href="tel:+390771674589">0771.67.45.89</a>
             </div>
 
-            <div className={headerClasses.cont__header_logo}>
-                <Link to="/">
-                    <img src={Logo} alt="Logo Splendorgas" /> 
-                </Link>
-            </div>
+            <div className={headerClasses.cont__header_desktop}>
+                <div className={headerClasses.cont__header_logo}>
+                    <Link to="/">
+                        <img src={Logo} alt="Logo Splendorgas" /> 
+                    </Link>
+                </div>
 
-            <div className={headerClasses.cont__header_menuZone}>
-                <Link to="/contatti" className={headerClasses.cont__header_menuZone_cta}>
-                    Richiedi un Preventivo
-                </Link>
+                <div className={headerClasses.cont__header_menuZone}>
+                    <Link to="/contatti" className={headerClasses.cont__header_menuZone_cta}>
+                        Richiedi un Preventivo
+                    </Link>
 
-                <button className={headerClasses.cont__header_menuZone_menu} onClick={menuHandler}>
-                    <span className={headerClasses.cont__header_menuZone_menu_line}></span>
-                    <span className={headerClasses.cont__header_menuZone_menu_line}></span>
-                    <span className={headerClasses.cont__header_menuZone_menu_line}></span>
-                </button>
-                
-                <nav className={headerClasses.cont__header_menuZone_inside}>
-                    <ul>
-                        <li>
-                            <Link to="/" onClick={menuHandler}>
-                                Home
-                            </Link>
-                        </li>
+                    <button className={headerClasses.cont__header_menuZone_menu} onClick={menuHandler}>
+                        <span className={headerClasses.cont__header_menuZone_menu_line}></span>
+                        <span className={headerClasses.cont__header_menuZone_menu_line}></span>
+                        <span className={headerClasses.cont__header_menuZone_menu_line}></span>
+                    </button>
+                    
+                    <nav className={headerClasses.cont__header_menuZone_inside}>
+                        <ul>
+                            <li>
+                                <Link to="/" onClick={menuHandler}>
+                                    Home
+                                </Link>
+                            </li>
 
-                        <li>
-                            <Link to="/chisiamo" onClick={menuHandler}>
-                                Chi Siamo
-                            </Link>
-                        </li>
+                            <li>
+                                <Link to="/chisiamo" onClick={menuHandler}>
+                                    Chi Siamo
+                                </Link>
+                            </li>
 
-                        <li>
-                            <Link to="/contatti" onClick={menuHandler}>
-                                Contatti
-                            </Link>
-                        </li>
-                    </ul>
-                </nav>
+                            <li>
+                                <Link to="/contatti" onClick={menuHandler}>
+                                    Contatti
+                                </Link>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <nav className={headerClasses.cont__header_menuZone_desktop}>
+                        <ul>
+                            <li>
+                                <Link to="/" onClick={menuHandler}>
+                                    Home
+                                </Link>
+                            </li>
+
+                            <li>
+                                <Link to="/chisiamo" onClick={menuHandler}>
+                                    Chi Siamo
+                                </Link>
+                            </li>
+
+                            <li>
+                                <Link to="/contatti" onClick={menuHandler}>
+                                    Contatti
+                                </Link>
+                            </li>
+                        </ul>
+                    </nav>
+
+
+                </div>
             </div>
         </div>
     )

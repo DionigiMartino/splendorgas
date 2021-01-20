@@ -7,6 +7,13 @@ $red_color: #FF0000;
     display: flex;
     flex-direction: column;
 
+    @media(min-width: 1280px){
+        &_desktop {
+            display: flex;
+            align-items: center;
+        }
+    }
+
     &_cta {
         width: 100%;
         height: fit-content;
@@ -38,7 +45,44 @@ $red_color: #FF0000;
         width: 100%;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         padding: 0px 20px;
+
+        &_desktop {
+            display: none;
+
+            @media(min-width: 1280px){
+                display: block;
+
+                & > ul {
+                    display: flex;
+                    flex-direction: row;
+                    list-style: none;
+                    padding-inline-start: 0;
+                    margin: 0;
+
+                    & > li {
+                        margin: 0 2.5vw;
+
+                        & > a {
+                            color: $blu_color;
+                            text-decoration: none;
+                            font-size: 16px;
+                            font-weight: bold;
+                            text-transform: uppercase;
+                            border-bottom: 2px solid $blu_color;
+                            padding: 0 10px 10px;
+                            transition: color .6s, border-bottom .6s;
+
+                            &:hover {
+                                color: $red_color;
+                                border-bottom: 2px solid $red_color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
 
         &_inside {
             width: 100%;
@@ -52,6 +96,10 @@ $red_color: #FF0000;
             transform: translateY(-101%);
             transition: transform .8s;
             box-shadow: 0px 2px 4px $blu_color;
+
+            @media(min-width: 1280px){
+                display: none;
+            }
 
             & > ul {
                 width: 80%;
@@ -87,6 +135,7 @@ $red_color: #FF0000;
         &_cta {
             width: 100px;
             background-color: $red_color;
+            height: fit-content;
             border-radius: 25px;
             font-size: 8px;
             padding: 5px;
@@ -107,6 +156,10 @@ $red_color: #FF0000;
             border: none;
             padding: 5px;
             z-index: 99999;
+
+            @media(min-width: 1280px){
+                display: none;
+            }
 
             &:focus {
                 outline: none;

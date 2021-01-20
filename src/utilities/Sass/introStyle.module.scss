@@ -1,6 +1,11 @@
 .cont_slide {
     width: 100%;
     margin-top: 2.5vh;
+    box-shadow: 0px 3px 5px #1d1d1d;
+
+    @media(min-width: 1280px){
+        margin-top: 0;
+    }
     
     &_slide {
         height: 35vh;
@@ -11,10 +16,15 @@
         align-items: flex-start;
         padding: 0 15px 20px;
 
+        @media(min-width: 1280px){
+            height: 65vh;
+            padding: 0 35px 50px;
+        }
+
         & > span {
             color: #fff;
             text-align: left;
-            font-size: 21px;
+            font-size: 31px;
         }
     }
 }

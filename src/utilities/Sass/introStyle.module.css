@@ -1,6 +1,12 @@
 .cont_slide {
   width: 100%;
   margin-top: 2.5vh;
+  box-shadow: 0px 3px 5px #1d1d1d;
+}
+@media (min-width: 1280px) {
+  .cont_slide {
+    margin-top: 0;
+  }
 }
 .cont_slide_slide {
   height: 35vh;
@@ -11,10 +17,16 @@
   align-items: flex-start;
   padding: 0 15px 20px;
 }
+@media (min-width: 1280px) {
+  .cont_slide_slide {
+    height: 65vh;
+    padding: 0 35px 50px;
+  }
+}
 .cont_slide_slide > span {
   color: #fff;
   text-align: left;
-  font-size: 21px;
+  font-size: 31px;
 }
 
-/*# sourceMappingURL=introstyle.module.css.map */
+/*# sourceMappingURL=introStyle.module.css.map */
