@@ -83,9 +83,14 @@
   right: 0;
   background-color: #020E28;
   z-index: 9999;
-  transform: translateY(-101%);
+  transform: translateY(-115%);
   transition: transform 0.8s;
   box-shadow: 0px 2px 4px #020E28;
+}
+@media (orientation: landscape) {
+  .cont__header_menuZone_inside {
+    height: 85vh;
+  }
 }
 @media (min-width: 1280px) {
   .cont__header_menuZone_inside {

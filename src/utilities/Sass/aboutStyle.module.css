@@ -12,6 +12,12 @@
   background-repeat: none;
   padding: 2.5px 25px;
 }
+@media (orientation: landscape) {
+  .cont__about_descr {
+    height: 85vh;
+    background-position: center;
+  }
+}
 @media (min-width: 1280px) {
   .cont__about_descr {
     height: 65vh;

@@ -16,6 +16,10 @@
         align-items: flex-start;
         padding: 0 15px 20px;
 
+        @media(orientation: landscape){
+            height: 100vh;
+        }
+
         @media(min-width: 1280px){
             height: 75vh;
             background-position: center;

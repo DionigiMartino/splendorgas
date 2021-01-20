@@ -28,6 +28,10 @@ $red_color: #FF0000;
         background-position: center;
         margin: 2.5vh 0;
 
+        @media(orientation: landscape){
+            height: 85vh;
+        }
+
         & > p {
             color: #fff;
             font-weight: bold;
@@ -49,6 +53,11 @@ $red_color: #FF0000;
             line-height: 15px;
             width: 65%;
             margin-top: -10px;
+
+            @media(orientation: landscape){
+                width: 40%;
+                margin-top: unset;
+            }
 
             &:hover {
                 background-color: $blu_color;

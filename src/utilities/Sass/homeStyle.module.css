@@ -57,6 +57,12 @@
   background-repeat: none;
   padding: 0 25px;
 }
+@media (orientation: landscape) {
+  .cont__home_descr {
+    height: 85vh;
+    background-position: center;
+  }
+}
 @media (min-width: 1280px) {
   .cont__home_descr {
     height: 65vh;

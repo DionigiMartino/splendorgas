@@ -95,9 +95,13 @@ $red_color: #FF0000;
             right: 0;
             background-color: $blu_color;
             z-index: 9999;
-            transform: translateY(-101%);
+            transform: translateY(-115%);
             transition: transform .8s;
             box-shadow: 0px 2px 4px $blu_color;
+
+            @media(orientation: landscape){
+                height: 85vh;
+            }
 
             @media(min-width: 1280px){
                 display: none;

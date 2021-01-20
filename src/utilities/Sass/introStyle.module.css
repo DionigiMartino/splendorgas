@@ -17,6 +17,11 @@
   align-items: flex-start;
   padding: 0 15px 20px;
 }
+@media (orientation: landscape) {
+  .cont_slide_slide {
+    height: 100vh;
+  }
+}
 @media (min-width: 1280px) {
   .cont_slide_slide {
     height: 75vh;
