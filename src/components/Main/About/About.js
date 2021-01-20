@@ -12,6 +12,11 @@ import Intro from '../Intro/Intro'
 
 import icon from '../../../utilities/img/iconaleader.svg'
 
+// import Video Component
+
+import Video from '../Video/Video'
+import video2 from '../../../utilities/img/video/video2.mp4'
+
 
 function About() {
 
@@ -37,6 +42,8 @@ function About() {
                 <p>
                     SplendorGas si occupa <b>di commercializzare e distribuire GPL in piccoli serbatoi</b>, offrendo la <b>qualità del prodotto</b> nella massima <b>trasparenza</b> del servizio e con <b>efficace distributiva logistica.</b>
                 </p>
+
+                <Video videoSrc={video2} />
 
                 <p>
                     <b>Scegliere il GPL significa dare un contributo ecosostenibile sostanzioso</b>, infatti è un combustibile facilmente <b>reperibile</b> con un <b>basso impatto ambientale</b> ed un’<b>elevata resa energetica</b> e <b>calorifica</b> per ogni ambiente ed utilizzo (es. cucina, riscaldamento, acqua calda oppure un usoindustriale od agricolo). Per questo motivo, pur essendo estremamente infiammabile, non <b>è tossico</b>. Inoltre, è <b>facilmente trasportabile ed economicamente vantaggioso</b> rispetto alle spese date dalle altre fonti energetiche.

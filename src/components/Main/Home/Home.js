@@ -24,6 +24,11 @@ import ecoIcon from '../../../utilities/img/iconaeco.svg'
 
 import Services from '../Services/Services'
 
+// import Video Components
+
+import Video from '../Video/Video';
+import video1 from '../../../utilities/img/video/video1.mp4'
+
 function Home() {
     return (
         <div className={homeClasses.cont__home}>
@@ -79,6 +84,8 @@ function Home() {
                     <b style={{'color': '#FF0000'}}> ecosostenibile</b> e molto calorifico.
                 </h2>
             </div>
+
+            <Video videoSrc={video1} />
         </div>
     )
 }
