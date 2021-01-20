@@ -19,7 +19,8 @@
 }
 @media (min-width: 1280px) {
   .cont_slide_slide {
-    height: 65vh;
+    height: 75vh;
+    background-position: center;
     padding: 0 35px 50px;
   }
 }
