@@ -2,7 +2,7 @@ $blu_color: #020E28;
 $red_color: #FF0000;
 
 .cont__services {
-    width: 70%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     padding-inline-start: 0;
@@ -36,7 +36,7 @@ $red_color: #FF0000;
             color: #fff;
             font-weight: bold;
             margin-top: 10px;
-            width: 50%;
+            width: fit-content;
         }
 
         & > a  {
