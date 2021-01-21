@@ -15,7 +15,7 @@ import flatIcon from '../../../utilities/img/iconacondominio.svg'
 function Services() {
 
     const services = [
-        {select: 'home', icon: homeIcon, text: 'Scegli la Soluzione Ideale che soddisfa ogni ambiente, dal riscaldamento all’acqua calda!'},
+        {select: 'home', icon: homeIcon, text: 'Scegli la Soluzione Ideale che soddisfa ogni ambiente. Dal riscaldamento all’acqua calda!'},
         {select: 'business', icon: businessIcon, text: 'Scegli la Soluzione ideale per la tua azienda o attività commerciale!'},
         {select: 'flat', icon: flatIcon, text: 'Scegli la Soluzione ideale di forniture veloci, sicure ed affidabili! '}
     ]
