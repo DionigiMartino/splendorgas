@@ -56,6 +56,15 @@
 .cont__header_logo {
   padding: 35px;
 }
+@media (min-width: 1280px) {
+  .cont__header_logo {
+    height: 125px;
+  }
+  .cont__header_logo img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
 .cont__header_menuZone {
   width: 100%;
   display: flex;
