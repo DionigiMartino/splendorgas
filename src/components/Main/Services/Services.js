@@ -15,13 +15,12 @@ import flatIcon from '../../../utilities/img/iconacondominio.svg'
 function Services() {
 
     const services = [
-        {select: 'home', icon: homeIcon, text: 'Scegli la Soluzione Ideale che soddisfa ogni cucina, al riscaldamento e infine l’acqua calda!'},
+        {select: 'home', icon: homeIcon, text: 'Scegli la Soluzione Ideale che soddisfa ogni ambiente, dal riscaldamento all’acqua calda!'},
         {select: 'business', icon: businessIcon, text: 'Scegli la Soluzione ideale per la tua azienda o attività commerciale!'},
-        {select: 'flat', icon: flatIcon, text: 'Scegli la tua Soluzione ideale di forniture veloci, sicure ed affidabili! '}
+        {select: 'flat', icon: flatIcon, text: 'Scegli la Soluzione ideale di forniture veloci, sicure ed affidabili! '}
     ]
 
     let servicesMapped = services.map((el, index) => <li key={index} id={el.select}> <img  src={el.icon} alt={index} />  <p>{el.text}</p> <Link to="/contatti">Richiedi un preventivo</Link></li>)
-    
     
     return (
         <ul className={servicesStyle.cont__services}>
