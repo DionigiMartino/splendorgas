@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21.548" height="25.975" viewBox="0 0 21.548 25.975">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_22" data-name="Rettangolo 22" width="21.548" height="25.975" transform="translate(0 0)" fill="red"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_57" data-name="Raggruppa 57" transform="translate(0 0)">
+    <g id="Raggruppa_43" data-name="Raggruppa 43" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Tracciato_82" data-name="Tracciato 82" d="M3.158,3.158a10.725,10.725,0,0,0,0,15.2l7.616,7.616,7.616-7.616A10.759,10.759,0,0,0,3.158,3.158M14.567,14.567a5.385,5.385,0,1,1,0-7.616,5.354,5.354,0,0,1,0,7.616" transform="translate(0 0)" fill="red"/>
+    </g>
+  </g>
+</svg>

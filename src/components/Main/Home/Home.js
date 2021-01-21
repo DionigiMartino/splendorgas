@@ -32,7 +32,7 @@ import video1 from '../../../utilities/img/video/video1.mp4'
 function Home() {
     return (
         <div className={homeClasses.cont__home}>
-            <Intro text="home" />
+            <Intro section="home" />
 
             <ul className={homeClasses.cont__home_info}>
                 <li>

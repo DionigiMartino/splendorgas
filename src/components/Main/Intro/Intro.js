@@ -29,13 +29,14 @@ function Intro(props) {
     let renderText = () => {
         const span = document.querySelectorAll('#intro_text');
 
-        if(props.text === 'home'){
+        if(props.section == "home"){
             span.forEach(el => {
                 el.innerHTML = `
                     Dal <b>2006</b> al vostro <b> servizio</b> per il <b>trasporto </b> e la <b>vendita</b> di <b>GPL</b> in piccoli serbatoi.
                 `
             })
-        } else {
+
+        } else if (props.section == "about"){
             span.forEach(el => {
                 el.innerHTML = `
                     <b>SplendorGas</b> nasce nel 2006 in società con la multinazionale Lampogas, azienda competente nel settore GPL da oltre <b>60 anni…</b>

@@ -23,7 +23,8 @@ $red_color: #FF0000;
 
         @media(min-width: 1280px){
             height: 65vh;
-            background-position: center;
+            background-position-y: 100%;
+            margin: 7.5vh 0;
         }
 
         & > h2 {

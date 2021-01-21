@@ -1,5 +1,6 @@
 import React from 'react'
-import CallIcon from '../../utilities/img/iconachiamatarossa.svg'
+import callIcon from '../../utilities/img/iconachiamatarossa.svg'
+import positionIcon from '../../utilities/img/iconalocazionerossa.svg'
 import Logo from '../../utilities/img/LogoSplendorgas.png'
 
 // import Style
@@ -28,8 +29,15 @@ function Header() {
     return (
         <div className={headerClasses.cont__header}>
             <div className={headerClasses.cont__header_cta}>
-                <img src={CallIcon} alt="Icon Call" /> 
-                <a href="tel:+390771674589">0771.67.45.89</a>
+                <a href="tel:+390771674589">
+                    <img src={callIcon} alt="Icon Call" /> 
+                    0771.67.45.89
+               </a>
+                
+                <a href="https://goo.gl/maps/wYCdLbE1vrWkfUuJ6">
+                    <img src={positionIcon} alt="Icon Call" /> 
+                    Via Traversa Perusi 135, 04020 SS. Cosma e Damiano (LT)
+                </a>
             </div>
 
             <div className={headerClasses.cont__header_desktop}>

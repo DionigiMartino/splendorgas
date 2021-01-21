@@ -20,17 +20,38 @@ $red_color: #FF0000;
         padding: 25px;
         background-color: $blu_color;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+
+        @media(min-width: 1280px){
+            flex-direction: row;
+            justify-content: flex-start;
+            padding: 25px 0;
+        }
 
         & > a {
             color: #fff;
             text-decoration: none;
             font-weight: bold;
-            margin-left: 5vw;
-            font-size: 14px;
+            font-size: 11px;
             transition: color .6s;
             transition: transform .8s;
+            display: flex;
+            align-items: center;
+            margin: 2.5vh 0; 
+            text-align: left;
+
+            @media(min-width: 1280px){
+                margin: 0 2.5vw;
+
+                &:first-of-type {
+                    margin: 0 0 0 2.5vw;
+                }
+            }
+            
+            & > img {
+                margin-right: 15px;
+            }
 
             &:hover {
                 color: $red_color;

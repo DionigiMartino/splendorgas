@@ -22,7 +22,8 @@
 @media (min-width: 1280px) {
   .cont__about_descr {
     height: 65vh;
-    background-position: center;
+    background-position-y: 100%;
+    margin: 7.5vh 0;
   }
 }
 .cont__about_descr > h2 {

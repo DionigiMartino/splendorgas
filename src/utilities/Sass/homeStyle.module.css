@@ -57,6 +57,7 @@
   background-repeat: none;
   background-position: center;
   padding: 0 25px;
+  margin-top: 2.5vh;
 }
 @media (orientation: landscape) {
   .cont__home_descr {
@@ -67,7 +68,7 @@
 @media (min-width: 1280px) {
   .cont__home_descr {
     height: 65vh;
-    background-position: center;
+    background-position-y: 100%;
     padding: 15px 35px;
   }
 }

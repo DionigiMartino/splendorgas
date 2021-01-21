@@ -22,7 +22,7 @@ function About() {
 
     return (
         <div className={aboutStyle.cont__about}>
-            <Intro text="about" />
+            <Intro section="about" />
 
             <div className={aboutStyle.cont__about_inside}>
                 <img src={icon} alt="Icon" />
