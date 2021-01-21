@@ -64,11 +64,11 @@ $red_color: #FF0000;
         padding: 35px;
 
         @media(min-width: 1280px){
-            height: 125px;
+            height: 150px;
 
             & img {
                 height: 100%;
-                object-fit: cover;
+                object-fit: contain;
             }
         }
     }

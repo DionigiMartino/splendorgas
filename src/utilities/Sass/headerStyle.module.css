@@ -58,11 +58,11 @@
 }
 @media (min-width: 1280px) {
   .cont__header_logo {
-    height: 125px;
+    height: 150px;
   }
   .cont__header_logo img {
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
 }
 .cont__header_menuZone {
