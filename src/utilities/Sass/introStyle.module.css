@@ -26,7 +26,8 @@
   .cont_slide_slide {
     height: 75vh;
     background-position: center;
-    padding: 0 35px 50px;
+    padding: 50px 35px;
+    justify-content: flex-start;
   }
 }
 .cont_slide_slide > span {
@@ -38,7 +39,7 @@
 }
 @media (min-width: 1280px) {
   .cont_slide_slide > span {
-    font-size: 75px;
+    font-size: 80px;
     line-height: 85px;
   }
 }
