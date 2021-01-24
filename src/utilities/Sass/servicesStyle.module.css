@@ -28,7 +28,7 @@
 }
 @media (orientation: landscape) {
   .cont__services > li {
-    height: 85vh;
+    height: 50vh;
   }
 }
 .cont__services > li > p {
