@@ -29,7 +29,7 @@ $red_color: #FF0000;
         margin: 2.5vh 0;
 
         @media(orientation: landscape){
-            height: 50vh;
+            height: 90vh;
         }
 
         & > p {
@@ -37,6 +37,10 @@ $red_color: #FF0000;
             font-weight: bold;
             margin-top: 10px;
             width: fit-content;
+
+            @media(orientation: landscape){
+                width: 65%;
+            }
         }
 
         & > a  {

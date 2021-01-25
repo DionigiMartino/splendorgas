@@ -28,7 +28,7 @@
 }
 @media (orientation: landscape) {
   .cont__services > li {
-    height: 50vh;
+    height: 90vh;
   }
 }
 .cont__services > li > p {
@@ -36,6 +36,11 @@
   font-weight: bold;
   margin-top: 10px;
   width: fit-content;
+}
+@media (orientation: landscape) {
+  .cont__services > li > p {
+    width: 65%;
+  }
 }
 .cont__services > li > a {
   color: #fff;
