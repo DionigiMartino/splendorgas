@@ -1,6 +1,6 @@
 import React from 'react'
 import callIcon from '../../utilities/img/iconachiamatarossa.svg'
-import positionIcon from '../../utilities/img/iconalocazionerossa.svg'
+import emailIcon from '../../utilities/img/iconamailrossa.svg'
 import Logo from '../../utilities/img/LogoSplendorgas.png'
 
 // import Style
@@ -35,7 +35,7 @@ function Header() {
                </a>
                 
                 <a href="https://goo.gl/maps/wYCdLbE1vrWkfUuJ6">
-                    <img src={positionIcon} alt="Icon Call" /> 
+                    <img src={emailIcon} alt="Icon Call" /> 
                     Via Traversa Perusi 135, 04020 SS. Cosma e Damiano (LT)
                 </a>
             </div>
