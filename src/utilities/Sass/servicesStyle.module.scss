@@ -13,6 +13,8 @@ $red_color: #FF0000;
     @media(min-width: 1280px){
         width: 85%;
         flex-direction: row;
+        justify-content: space-between;
+        margin: 1vh auto;
     }
 
     & > li {
@@ -30,6 +32,12 @@ $red_color: #FF0000;
 
         @media(orientation: landscape){
             height: 90vh;
+        }
+
+        @media(min-width: 1280px){
+            width: 30%;
+            height: 60vh;
+            margin: 0 0;
         }
 
         & > p {

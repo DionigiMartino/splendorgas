@@ -11,6 +11,8 @@
   .cont__services {
     width: 85%;
     flex-direction: row;
+    justify-content: space-between;
+    margin: 1vh auto;
   }
 }
 .cont__services > li {
@@ -29,6 +31,13 @@
 @media (orientation: landscape) {
   .cont__services > li {
     height: 90vh;
+  }
+}
+@media (min-width: 1280px) {
+  .cont__services > li {
+    width: 30%;
+    height: 60vh;
+    margin: 0 0;
   }
 }
 .cont__services > li > p {
