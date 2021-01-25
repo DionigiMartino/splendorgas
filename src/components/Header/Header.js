@@ -36,7 +36,7 @@ function Header() {
                 
                 <a href="https://goo.gl/maps/wYCdLbE1vrWkfUuJ6">
                     <img src={emailIcon} alt="Icon Call" /> 
-                    Via Traversa Perusi 135, 04020 SS. Cosma e Damiano (LT)
+                    info@splendorgas.com
                 </a>
             </div>
 

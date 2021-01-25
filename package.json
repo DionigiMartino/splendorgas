@@ -23,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "git": "git add --a && git commit --all -m general && git push",
-    "Ilaria": "npm run build && git add --a && git commit --all -m done && git push"
+    "deploy": "npm run build && git add --a && git commit --all -m done && git push"
   },
   "eslintConfig": {
     "extends": [
