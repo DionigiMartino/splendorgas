@@ -130,6 +130,11 @@
     display: none;
   }
 }
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .cont__header_menuZone_inside {
+    height: 45vh;
+  }
+}
 .cont__header_menuZone_inside > ul {
   width: 80%;
   display: flex;
