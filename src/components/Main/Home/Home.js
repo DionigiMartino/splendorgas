@@ -28,6 +28,7 @@ import Services from '../Services/Services'
 
 import Video from '../Video/Video';
 import video1 from '../../../utilities/img/video/video1.mp4'
+import video3 from '../../../utilities/img/video/video3.mp4'
 
 function Home() {
     return (
@@ -64,6 +65,8 @@ function Home() {
                 direttamente dai
                 <b> depositi costieri!</b>
             </p>
+
+            <Video videoSrc={video3} />
 
             <div className={homeClasses.cont__home_descr}>
                 <h2>
