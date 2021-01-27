@@ -12,7 +12,7 @@ const StyledVideo = styled.video `
 function Video(props) {
     return (
         <div>
-            <StyledVideo src={props.videoSrc} controls muted/>
+            <StyledVideo src={props.videoSrc} poster={props.poster} controls muted/>
         </div>
     )
 }
