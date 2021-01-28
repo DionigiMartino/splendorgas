@@ -8,13 +8,11 @@ import homeClasses from '../../../utilities/Sass/homeStyle.module.css'
 
 import Intro from '../Intro/Intro'
 
-// import checkIcon
+// import icons
 
 import checkIcon from '../../../utilities/img/iconapuntualita.svg';
-
-// import leaderIcon
-
 import leaderIcon from '../../../utilities/img/iconaleader.svg';
+import trustIcon from '../../../utilities/img/iconaaffidabilita.svg';
 
 // import eco
 
@@ -43,6 +41,14 @@ function Home() {
 
                     <h2>
                         Puntualità nelle consegne
+                    </h2>
+                </li>
+
+                <li>
+                    <img src={trustIcon} alt="Icon Affidabilita" />
+
+                    <h2>
+                        Affidabilità
                     </h2>
                 </li>
 

@@ -34,6 +34,10 @@
   .cont__home_info > li {
     margin: 0;
   }
+  .cont__home_info > li > img {
+    height: 150px;
+    object-fit: contain;
+  }
 }
 .cont__home_info > li:last-child {
   margin: 5vh 0 0;

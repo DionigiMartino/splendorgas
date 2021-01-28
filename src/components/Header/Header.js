@@ -83,20 +83,32 @@ function Header() {
                     <nav className={headerClasses.cont__header_menuZone_desktop}>
                         <ul>
                             <li>
-                                <Link to="/" onClick={menuHandler}>
+                                <Link to="/">
                                     Home
                                 </Link>
                             </li>
 
                             <li>
-                                <Link to="/chisiamo" onClick={menuHandler}>
+                                <Link to="/chisiamo">
                                     Chi Siamo
                                 </Link>
                             </li>
 
                             <li>
-                                <Link to="/contatti" onClick={menuHandler}>
+                                <Link to="/gpl">
+                                    GPL
+                                </Link>
+                            </li>
+
+                            <li>
+                                <Link to="/contatti">
                                     Contatti
+                                </Link>
+                            </li>
+
+                            <li>
+                                <Link to="/lavora-con-noi">
+                                    Lavora con Noi
                                 </Link>
                             </li>
                         </ul>
