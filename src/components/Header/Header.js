@@ -73,8 +73,20 @@ function Header() {
                             </li>
 
                             <li>
+                                <Link to="/gpl" onClick={menuHandler}>
+                                    GPL
+                                </Link>
+                            </li>
+
+                            <li>
                                 <Link to="/contatti" onClick={menuHandler}>
                                     Contatti
+                                </Link>
+                            </li>
+
+                            <li>
+                                <Link to="/lavora-con-noi" onClick={menuHandler}>
+                                    Lavora con Noi
                                 </Link>
                             </li>
                         </ul>
