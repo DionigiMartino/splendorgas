@@ -35,11 +35,16 @@ function Intro(props) {
                     Dal <b>2006</b> al vostro <b> servizio</b> per il <b>trasporto </b> e la <b>vendita</b> di <b>GPL</b> in piccoli serbatoi.
                 `
             })
-
         } else if (props?.section === "about"){
             span.forEach(el => {
                 el.innerHTML = `
                     <b>SplendorGas</b> nasce nel 2006 in società con la multinazionale Lampogas, azienda competente nel settore GPL da oltre <b>60 anni…</b>
+                `
+            })
+        } else if (props?.section === "gpl"){
+            span.forEach(el => {
+                el.innerHTML = `
+                    <b>Versatile</b> ed <b>economicamente vantaggioso</b> sia per gli usi domestici che industriali, il <b>Gas Metano</b> è la scelta migliore per ogni tua soluzione! 
                 `
             })
         }

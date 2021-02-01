@@ -21,6 +21,10 @@ import Home from './components/Main/Home/Home'
 
 import About from './components/Main/About/About'
 
+// import GPL component
+
+import GPL from './components/Main/About/GPL'
+
 // import Contact Component
 
 import Contact from './components/Main/Contact/Contact'
@@ -35,6 +39,12 @@ function App() {
           <Route path="/contatti">
             <DocumentTitle title="Splendorgas S.r.l - Contatti">
               <Contact />
+            </DocumentTitle>
+          </Route>
+
+          <Route path="/gpl">
+            <DocumentTitle title="Splendorgas S.r.l - GPL">
+              <GPL />
             </DocumentTitle>
           </Route>
 

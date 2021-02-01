@@ -62,7 +62,7 @@ function Home() {
             </ul>
 
             <p>
-                <b>SplendorGas</b> è partner
+                <b>SplendorGas</b> fa parte
                 del <b>Gruppo AutoGas</b>,
                 presente sul territorio
                 da oltre 60 anni nel

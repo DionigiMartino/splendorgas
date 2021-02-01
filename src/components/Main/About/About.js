@@ -32,7 +32,7 @@ function About() {
                 </h2>
 
                 <p>
-                    <b>…A marzo del 2019</b> Lampogas viene ceduta al <b>Gruppo AutoGas</b>, passando sotto il marchio <i>AGN Energia.</i> <i>Il Gruppo AutoGas</i>, <b>di cui siamo attualmente Partner</b>, è una multiutility che offre un’offerta completa nel settore energetico.
+                    <b>…A marzo del 2019</b> Lampogas viene ceduta al <b>Gruppo AutoGas</b>, passando sotto il marchio <i>AGN Energia.</i> <i>Il Gruppo AutoGas</i>, <b>di cui SplendorGas attualmente fa parte</b>, è una multiutility che offre un’offerta completa nel settore energetico.
                 </p>
 
                 <p>
