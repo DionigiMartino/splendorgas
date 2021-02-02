@@ -20,7 +20,7 @@ function Services() {
         {select: 'flat', icon: flatIcon, text: 'Scegli la Soluzione ideale di forniture veloci, sicure ed affidabili! '}
     ]
 
-    let servicesMapped = services.map((el, index) => <li key={index} id={el.select}> <img  src={el.icon} alt={index} />  <p>{el.text}</p> <Link to="/contatti">Richiedi un preventivo</Link></li>)
+    let servicesMapped = services.map((el, index) => <li key={index} id={el.select}> <img  src={el.icon} alt={index} />  <p>{el.text}</p> <Link to="/gpl">Scopri di più</Link></li>)
     
     return (
         <ul className={servicesStyle.cont__services}>

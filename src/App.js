@@ -25,6 +25,10 @@ import About from './components/Main/About/About'
 
 import GPL from './components/Main/About/GPL'
 
+// import Job
+
+import Job from './components/Main/Contact/Job'
+
 // import Contact Component
 
 import Contact from './components/Main/Contact/Contact'
@@ -36,6 +40,13 @@ function App() {
         <Header />
 
         <Switch>
+
+          <Route path="/lavora-con-noi">
+              <DocumentTitle title="Splendorgas S.r.l - Lavora con noi">
+                <Job />
+              </DocumentTitle>
+          </Route>
+
           <Route path="/contatti">
             <DocumentTitle title="Splendorgas S.r.l - Contatti">
               <Contact />

@@ -51,6 +51,12 @@ function Intro(props) {
                     `
                 })
             break;
+            case "lavora_con_noi":
+                span.forEach(el => {
+                    el.innerHTML = `
+                        Vuoi entrare a far parte del nostro team? Lavora con Noi! <br /> Compila il format e inviaci il tuo Curriculum Vitae!
+                    `
+                })
             default: 
                 console.log(console.error())
             break;
