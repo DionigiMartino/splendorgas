@@ -23,7 +23,7 @@ function GPL() {
                 </p>
 
                 <ul>
-                    <li>
+                    <li id="home">
                         <img src={homeIcon} />
 
                         <p>
@@ -39,7 +39,7 @@ function GPL() {
                         </p>
                     </li>
 
-                    <li>
+                    <li id="business">
                         <img src={businessIcon} />
 
                         <p>
@@ -55,7 +55,7 @@ function GPL() {
                         </p>
                     </li>
 
-                    <li>
+                    <li id="flat">
                         <img src={flatIcon} />
 
                         <p>
