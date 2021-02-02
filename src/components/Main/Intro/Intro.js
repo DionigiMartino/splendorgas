@@ -40,7 +40,7 @@ function Intro(props) {
             case "about":
                 span.forEach(el => {
                     el.innerHTML = `
-                        <b>SplendorGas</b> nasce nel 2006 in società con la multinazionale Lampogas, azienda competente nel settore GPL da oltre <b>60 anni…</b>
+                        <b>SplendorGas</b> nasce nel 2006 in società con la multinazionale Lampogas, azienda presente nel settore GPL da oltre <b>60 anni…</b>
                     `
                 })
             break;
