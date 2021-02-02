@@ -24,7 +24,7 @@ function GPL() {
 
                 <ul>
                     <li id="home">
-                        <img src={homeIcon} />
+                        <img src={homeIcon} alt="Icon Home"/>
 
                         <p>
                             Scegli la soluzione personalizzata e conveniente per la tua utenza privata!
@@ -40,7 +40,7 @@ function GPL() {
                     </li>
 
                     <li id="business">
-                        <img src={businessIcon} />
+                        <img src={businessIcon} alt="Icon business" />
 
                         <p>
                             Scegli la soluzione migliore di risparmio energetico per la tua attività commerciale!
@@ -56,7 +56,7 @@ function GPL() {
                     </li>
 
                     <li id="flat">
-                        <img src={flatIcon} />
+                        <img src={flatIcon} alt="Icon Flat" />
 
                         <p>
                             Scegli la migliore soluzione Gas condominiale nel massimo della convenienza!

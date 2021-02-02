@@ -1,7 +1,5 @@
 import React from 'react'
 
-import Intro from '../Intro/Intro'
-
 import Contact from './Contact'
 
 function Job() {
