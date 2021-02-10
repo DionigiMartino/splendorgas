@@ -64,8 +64,9 @@ $red_color: #FF0000;
             padding-inline-start: 0;
 
             @media(min-width: 1280px){
-                width: 80%;
+                width: 90%;
                 flex-direction: row;
+                flex-wrap: wrap;
             }
 
             & > li {
@@ -78,16 +79,20 @@ $red_color: #FF0000;
                 padding: 10px 15px;
                 margin: 2.5vh auto;
                 background-size: cover;
+                clip-path: circle();
 
                 &[id="home"] {
+                    background-position: center;
                     background-image: url('../img/foto/casa.png');
                 }
         
                 &[id="business"] {
+                    background-position: center;
                     background-image: url('../img/foto/business.png');
                 }
         
                 &[id="flat"] {
+                    background-position: center;
                     background-image: url('../img/foto/condomini.png');
                 }
 
@@ -98,8 +103,12 @@ $red_color: #FF0000;
                 }
 
                 @media(min-width: 1280px){
-                    width: 32%;
-                    height: 455px;
+                    width: 45%;
+                    height: 500px;
+
+                    & > p {
+                        width: 60%;
+                    }
                 }
 
                 & > img {
@@ -107,11 +116,6 @@ $red_color: #FF0000;
                     height: 50px;
                     object-fit: contain;
                 }
-
-                // & > p {
-                //     width: 100%;
-                //     font-size: 16px;
-                // }
             }
         }
     }

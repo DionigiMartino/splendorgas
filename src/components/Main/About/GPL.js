@@ -17,41 +17,71 @@ function GPL() {
 
             <div className={gplClasses.cont__about_inside}>
                 <p>
-                    Il metano è un semplice idrocarburo saturo, inodore e non tossico presente in molti gas naturali. È un combustibile facilmente reperibile, considerato tra i più ecologici oggi presenti sul mercato: infatti, a differenza degli altri combustibili, esso non produce biossido di zolfo, assai inquinante. A parità di calore prodotto, il metano produce soltanto anidride carbonica e ossido di azoto, ma in misura decisamente minore di carbone e petrolio e, di conseguenza, con effetti meno dannosi per l'ambiente.
+                    Il <b>gas GPL</b> è una grande <b>risorsa naturale</b>, costituita da una miscela di idrocarburi tra i quali vi sono principalmente il propano e il butano. 
                     <br />
-                    Versatile ed economicamente vantaggioso sia per gli usi domestici che industriali, il Gas Metano è la scelta migliore per ogni tua soluzione!  
+                    Questo gas può essere prodotto dalla lavorazione del petrolio, oppure estratto da giacimenti naturali di gas.
+
+                    <br /><br />
+                    Il GPL rappresenta una <b>fonte di energia versatile</b>, pulita e facilmente trasportabile, quindi utilizzabile capillarmente anche nelle zone più accidentate. 
+                    <br />
+                    Il GPL è <b>un'energia sicura, comoda,</b> con una <b>resa calorifica costante</b> che <b>soddisfa ogni esigenza </b>relativa al riscaldamento, alla produzione di acqua calda e nei cicli di lavorazione industriale, artigianale, in agricoltura e zootecnica, nelle abitazioni e nelle comunità. Inoltre è una soluzione ottimale e <b>versatile per tutti gli usi</b>, dalla singola abitazione alle reti canalizzate per interi comuni e ha una <b>bassa incidenza sulle spese di manutenzione</b> degli impianti utilizzatori. 
                 </p>
 
                 <ul>
                     <li id="home">
                         <img src={homeIcon} alt="Icon Home"/>
 
+                        <p>LE SOLUZIONI PER LA CASA</p>
+
                         <p>
                             Scegli la soluzione personalizzata e conveniente per la tua utenza privata!
                         </p>
 
+                        <p style={{'color': '#FF0000'}}>GPL DOMESTICO IN SERBATOI</p>
+
                         <p>
-                            Affidabilità sui costi di consumo  <br />
-                            Garanzia di risparmio <br />
-                            Tariffe chiari e semplici <br />
-                            Fatture trasparenti <br />
-                            Personalizza la tua offerta 
+                            Il Gruppo Fornisce i propri serbatoi di capacità e tipologia idonee per ogni utilizzo: <br />
+                            fuori terra  <br />
+                            interrati <br />
+                            concessi in uso gratuito <br />
+                        </p>
+                    </li>
+
+                    <li id="home">
+                        <img src={homeIcon} alt="Icon Home"/>
+
+                        <p>LE SOLUZIONI PER LA CASA</p>
+
+                        <p>
+                            Scegli la soluzione personalizzata e conveniente per la tua utenza privata!
+                        </p>
+
+                        <p style={{'color': '#FF0000'}}>GPL CASA PER IMPIANTI CENTRALIZZATI</p>
+
+                        <p>
+                            Proponiamo soluzioni GPL casa personalizzate che assicurano una fornitura pratica e diversi servizi: <br /><br /> 
+
+                            possibilità di realizzare impianti centralizzati <br />
+                            installazione di un contatore per ogni singola utenza <br />
+                            fatturazione diretta su singoli quantitativi consumati
                         </p>
                     </li>
 
                     <li id="business">
                         <img src={businessIcon} alt="Icon business" />
-
+                        
                         <p>
-                            Scegli la soluzione migliore di risparmio energetico per la tua attività commerciale!
+                            IL GPL per piccole e medie attività è una soluzione che gode di diversi punti di forza:
                         </p>
 
                         <p>
-                            Consumi Ottimizzati <br />
-                            Garanzia di risparmio <br />
-                            Risparmio Efficiente <br />
-                            Fatture trasparenti <br />
-                            Personalizza la tua offerta
+                            copertura capillare in tutte le aree non raggiunte dal metano <br />
+                            rinfornimenti tempestivi, puntuali, certificati e controllati <br />
+                            monitoraggio dell'impianto a distanza e gestione telematica della flotta <br />
+                            manutenzione e controlli periodici dello stato degli impianti <br />
+                            rispetto delle norme tecniche di sicurezza <br />
+                            assistenza commerciale e reperibilità tecnica 24 ore su 24 <br />
+                            correttezza e trasparenza contrattuale
                         </p>
                     </li>
 
@@ -63,11 +93,13 @@ function GPL() {
                         </p>
 
                         <p>
-                            Risparmio energetico <br />
-                            Sistema di contabilizzazione del calore <br />
-                            Servizio di riqualificazione della centrale termica <br />
-                            Sistema di regolazione e termostatizzazione dei locali <br />
-                            Maggiore efficienza
+                            Il Gruppo SplendorGas propone soluzioni GPL personalizzate per amministratori condominiali assicurando una fornitura pratica e la possibilità di realizzare impianti centralizzati con installazione di un contatore per ogni singola utenza. In più offriamo:
+                        </p>
+
+                        <p>
+                            Fatturazione diretta su singoli quantitativi consumati <br />
+                            Gestione e realizzazione di reti canalizzate <br />
+                            Serbatoi da esterno o da interno, concessi in uso gratuito e con rinfornimento programmato <br />
                         </p>
  
                     </li>
