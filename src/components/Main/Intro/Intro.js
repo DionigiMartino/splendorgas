@@ -47,7 +47,7 @@ function Intro(props) {
             case "gpl":
                 span.forEach(el => {
                     el.innerHTML = `
-                        <b>Versatile</b> ed <b>economicamente vantaggioso</b> sia per gli usi domestici che industriali, il <b>Gas Metano</b> è la scelta migliore per ogni tua soluzione! 
+                        <b>Versatile</b> ed <b>economicamente vantaggioso</b> sia per gli usi domestici che industriali, il <b>GPL</b> è la scelta migliore per ogni tua soluzione! 
                     `
                 })
             break;
