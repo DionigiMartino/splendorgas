@@ -54,7 +54,7 @@ $red_color: #FF0000;
         }
 
         & > ul {
-            width: 95%;
+            width: 100%;
             margin: 5vh auto;
             display: flex;
             flex-direction: column;
@@ -75,7 +75,7 @@ $red_color: #FF0000;
                 align-items: center;
                 justify-content: center;
                 width: 100%;
-                height: 355px;
+                height: 400px;
                 padding: 10px 15px;
                 margin: 2.5vh auto;
                 background-size: cover;
@@ -97,7 +97,7 @@ $red_color: #FF0000;
                 }
 
                 & > p {
-                    font-size: 14px !important;
+                    font-size: 10px !important;
                     color: #fff;
                     width: 80%;
                 }
