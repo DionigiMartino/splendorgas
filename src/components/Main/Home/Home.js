@@ -25,8 +25,8 @@ import Services from '../Services/Services'
 // import Video Components
 
 import Video from '../Video/Video';
-import video1 from '../../../utilities/img/video/video1.mp4'
-import screen1 from '../../../utilities/img/screen-video-1.jpg'
+import video2 from '../../../utilities/img/video/video2.mp4'
+import screen2 from '../../../utilities/img/screen-video-2.jpg'
 
 function Home() {
     return (
@@ -92,7 +92,7 @@ function Home() {
                 </h2>
             </div>
 
-            <Video videoSrc={video1} poster={screen1} />
+            <Video videoSrc={video2} poster={screen2} />
         </div>
     )
 }

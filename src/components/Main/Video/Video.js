@@ -5,8 +5,12 @@ const StyledVideo = styled.video `
     width: 90%;
     margin: 5vh 0;
     object-fit: cover;
-    height: 40vh;
+    height: 25vh;
     border-radius: 25px;
+
+    @media(min-width: 1024px){
+        height: 65vh;
+    }
 `
 
 function Video(props) {

@@ -33,10 +33,6 @@ function GPL() {
 
                         <p>LE SOLUZIONI PER LA CASA</p>
 
-                        <p>
-                            Scegli la soluzione personalizzata e conveniente per la tua utenza privata!
-                        </p>
-
                         <p style={{'color': '#FF0000'}}>GPL DOMESTICO IN SERBATOI</p>
 
                         <p>
@@ -51,10 +47,6 @@ function GPL() {
                         <img src={homeIcon} alt="Icon Home"/>
 
                         <p>LE SOLUZIONI PER LA CASA</p>
-
-                        <p>
-                            Scegli la soluzione personalizzata e conveniente per la tua utenza privata!
-                        </p>
 
                         <p style={{'color': '#FF0000'}}>GPL CASA PER IMPIANTI CENTRALIZZATI</p>
 

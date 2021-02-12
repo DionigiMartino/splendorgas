@@ -95,6 +95,16 @@
   color: #fff;
   width: 80%;
 }
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .cont__about_inside > ul > li > p {
+    width: 25%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .cont__about_inside > ul > li > p {
+    width: 50%;
+  }
+}
 @media (min-width: 1280px) {
   .cont__about_inside > ul > li {
     width: 45%;
