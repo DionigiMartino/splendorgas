@@ -9,7 +9,7 @@ function Contact(props) {
         <div className={contactStyle.cont__contact}>
             <Intro section={props.section} />
 
-            <form className={contactStyle.cont__contact_form}>
+            <form className={contactStyle.cont__contact_form} action="sendEmail.php" enctype="multipart/form-data" method="POST">
                 <input type="text" name="nome" placeholder="Nome-Cognome" />
                 <input type="text" name="tel" placeholder="Telefono" />
                 <input type="text" name="email" placeholder="Email" />
@@ -19,7 +19,7 @@ function Contact(props) {
                     <input type="file" name="allegato" />
                 )}
 
-                <button id="submit">INVIA</button>
+                <input type="submit" id="submit" placeholder="INVIA" />
             </form>
 
             <h2>
