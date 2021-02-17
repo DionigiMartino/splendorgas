@@ -15,7 +15,7 @@ import icon from '../../../utilities/img/iconaleader.svg'
 // import Video Component
 
 import Video from '../Video/Video'
-import video1 from '../../../utilities/img/video/video1.mp4'
+import video1 from '../../../utilities/img/video/video1.webm'
 import screen1 from '../../../utilities/img/screen-video-1.jpg'
 
 function About() {
