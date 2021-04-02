@@ -12,7 +12,7 @@
 
     $tipo_email="MIME-Version: 1.0\nContent-type: multipart/mixed;\n boundary=\"$cod_delimitatore\"\n\n";
     $mittente="From: $nome <$email>\n$tipo_email";
-    $destinatario= "dionigi49@gmail.com";
+    $destinatario= "info@splendorgas.it";
     $oggetto="Modulo Contatto - Informazioni";
     $test_mail="Messaggio inviato da $nome , email: $email, telefono: $telefono, Messaggio: $msg";
 
