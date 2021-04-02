@@ -1,4 +1,5 @@
 import React from 'react'
+import sendEmail from './sendEmail.php'
 
 import contactStyle from '../../../utilities/Sass/contactStyle.module.css'
 
@@ -9,7 +10,7 @@ function Contact(props) {
         <div className={contactStyle.cont__contact}>
             <Intro section={props.section} />
 
-            <form className={contactStyle.cont__contact_form} action="sendEmail.php" enctype="multipart/form-data" method="POST">
+            <form className={contactStyle.cont__contact_form} action={sendEmail} enctype="multipart/form-data" method="POST">
                 <input type="text" name="nome" placeholder="Nome-Cognome" />
                 <input type="text" name="tel" placeholder="Telefono" />
                 <input type="text" name="email" placeholder="Email" />
